@@ -32,7 +32,7 @@ module.exports = function(grunt) {
         },
         files: {
           'dist/assets/css/app.css': 'src/assets/scss/app.scss'
-        }        
+        }
       }
     },
 
@@ -56,9 +56,9 @@ module.exports = function(grunt) {
     clean: ['dist/'],
 
     watch: {
-      grunt: { 
+      grunt: {
         files: ['Gruntfile.js'],
-        tasks: ['build'] 
+        tasks: ['build']
       },
 
       sass: {
